@@ -20,16 +20,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
     createDiv(num[i]);
   }
 
-  function arrSort() {
-    const n = num.length;
-
-    for (let i = 0; i < n - 1; i++) {
-      for (let j = 0; j < n - i - 1; j++) {
-        delay(n, i, j);
-      }
-    }
-  }
-
   function asyncSort() {
     if (i < n - 1) {
       if (j < n - i - 1) {
